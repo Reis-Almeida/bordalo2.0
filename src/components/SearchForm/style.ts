@@ -35,6 +35,13 @@ export const Form = styled.div`
         top: 40px;
     }
 
+    .formPosition > ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        height: 33px;
+    }
+
     .formPosition > ul > li {
         font-size: 15px;
         line-height: 1.42857;
