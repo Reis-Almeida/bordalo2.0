@@ -101,7 +101,7 @@ const HeaderComponent : React.FC = () => {
                     <AiOutlineWhatsApp />
                 </a>
                 <button onClick={goToTop} className={topClass}>
-                    <IoIosArrowUp />
+                   <IoIosArrowUp />
                 </button>
             </div>
             <div className={`Header ${topHeader}`}>

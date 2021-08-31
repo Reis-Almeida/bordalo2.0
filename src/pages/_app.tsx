@@ -13,7 +13,10 @@ const isProduction = process.env.NODE_ENV === "production";
 
 import { AppWrapper } from "src/context/parseXml";
 import type { AppProps } from 'next/app';
-import { GlobalStyle } from 'src/styles/globals';
+import GlobalStyle from 'src/styles/globals';
+import SectionStyle from 'src/styles/section';
+import HomeStyle from 'src/styles/home';
+import PropertyStyle from 'src/styles/Property';
 
 function MyApp({ Component, pageProps } : AppProps) {
   const router = useRouter();
@@ -32,6 +35,9 @@ function MyApp({ Component, pageProps } : AppProps) {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle/>
+      <SectionStyle/>
+      <PropertyStyle/>
+      <HomeStyle/>
       <AppWrapper>
           <Component {...pageProps} />
       </AppWrapper>
