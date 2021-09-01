@@ -17,7 +17,7 @@ import dynamic from "next/dynamic";
 
 import { useApi } from "src/hooks/useApi";
 
-const NoSSRMap = dynamic(() => import("src/components/AzureMap"), {
+const NoSSRMap = dynamic(() => import("src/components/LeafletMap"), {
     ssr: false
 });
 
@@ -175,7 +175,6 @@ function Contact() {
                                 <NoSSRMap 
                                     lg={"-47.882164"}
                                     lt={"-15.794229"}
-                                    height={"300px"}
                                 />
                             </div>
                         </div>

@@ -91,7 +91,7 @@ export default function Home() {
 
       <Header />
       <SectionFull>
-        <div className={"sectionDiv"}>
+        <div className="sectionDiv">
           <SearchForm 
             cityList={cities}
             updateStreetBuy={extractStreetsBuy}

@@ -184,7 +184,7 @@ function News() {
                 <strong style={{ display: "block" }}>Referência de material com autoria conhecida:</strong>
                 MOURA, Thaís. Presidente da Ademi: mercado imobiliário deve gerar 110 mil empregos no DF. Disponível em: &nbsp;
                 <Link href="https://www.correiobraziliense.com.br/app/noticia/economia/2019/10/01/internas_economia,793145/presidente-da-ademi-mercado-imobiliario-deve-gerar-110-mil-empregos.shtml" passHref={true}>
-                    <a target="_blank" sx={{ variant: "anchors.primaryFont" }}>
+                    <a target="_blank">
                         Presidente da Ademi: mercado imobiliário deve gerar 110 mil empregos no DF
                     </a>
                 </Link>

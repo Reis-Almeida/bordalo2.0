@@ -1,6 +1,5 @@
 import React, { FC, useState, useEffect } from 'react';
 import { IPagination } from "interfaces/index";
-import property from "src/styles/Property.module.css";
 
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { Nav } from './style';

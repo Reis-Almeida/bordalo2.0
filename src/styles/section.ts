@@ -10,6 +10,10 @@ const SectionStyle = createGlobalStyle`
     justify-content: center;
     flex-direction: column;
     align-items: center;
+
+    p a {
+        ${theme.anchors.primaryFont}
+    }
 }
 
 .container,
@@ -329,8 +333,7 @@ const SectionStyle = createGlobalStyle`
 }
 .lineLinksItem a {
   margin-left: 3px;
-
-    ${theme.colors.primary}
+  color: ${theme.colors.primary};
 }
 
 .successMessage,
@@ -467,7 +470,7 @@ const SectionStyle = createGlobalStyle`
 }
 
 .employeeListInfo a {
-  ${theme.colors.primary}
+  color: ${theme.colors.primary};
 }
 
 .lineLinks {

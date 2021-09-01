@@ -66,8 +66,9 @@ export const Header = styled.header`
         opacity: 1;
     }
 
-    .fixed-btn .top-screen {
+    .fixed-btn, .top-screen {
         opacity: 0;
+        color:red;
     }
 
     .black {
